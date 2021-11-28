@@ -141,7 +141,11 @@ typedef struct
     bool ignoreSwitchPress;
 
     /* Tracks switch press*/
-    bool isSwitchPressed;
+    bool isSwitchPressed1;
+    bool isSwitchPressed2;
+    bool isSwitchPressed3;
+    
+    bool keyAlternateFunction;
     
     /* Track the send report status */
     bool isReportSentComplete;
